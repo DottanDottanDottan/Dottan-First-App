@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".What_IS_New">
+
+
+    <Button
+        android:id="@+id/Btn_Close_What_Is_New"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/WhiteColor"
+        android:text="X"
+        android:gravity="right"
+        android:textSize="30sp"
+        android:paddingLeft="65dp"
+        android:textColor="@color/BlackColor"/>
+
+    <WebView
+        android:id="@+id/WebView_On_Gaming"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

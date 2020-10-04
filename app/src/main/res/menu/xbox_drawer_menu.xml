@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:itemHorizontalTranslationEnabled="false"
+    app:labelVisibilityMode="unlabeled"
+    tools:showIn="navigation_view">
+
+
+
+    // בודק שאתה תוכל לבחור רק אייטם אחד מהתפריט
+    <group android:checkableBehavior="single">
+
+
+
+
+        <item
+            android:checked="true"
+            android:id="@+id/nav_MyPofie"
+            android:icon="@drawable/ic_profie"
+            android:title="MyProfie" />
+
+        <item
+            android:id="@+id/nav_Library_Games"
+            android:icon="@drawable/ic_library_games"
+            android:title="Games Library " />
+
+        <item
+            android:id="@+id/nav_Stream_Channel"
+            android:icon="@drawable/ic_youtube_channel"
+            android:title="StreamChannel" />
+
+        <item
+            android:id="@+id/nav_BuyChannel"
+            android:icon="@drawable/ic_buychannel"
+            android:title="Shop-Site" />
+
+        <item
+            android:checked="true"
+            android:id="@+id/nav_NewOnGaming"
+            android:icon="@drawable/ic_new_on_gaming"
+            android:title="New On Gaming" />
+
+
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_Contact"
+                android:icon="@drawable/ic_contact"
+                android:title="Contact-Us" />
+
+        </menu>
+
+    </item>
+
+
+
+
+
+
+
+
+
+</menu>

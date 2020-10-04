@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cdkeysbuygamesblue"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="20"
+    tools:context=".G2A_BUY_GAMES">
+
+
+    <SearchView
+        android:id="@+id/SearchView"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:searchIcon="@drawable/ic_searcbar"
+        android:layout_weight="2"
+        android:iconifiedByDefault="false"
+        android:queryBackground="@color/WhiteColor"
+        android:queryHint="Search Here - CD-KEYS-GAMES !"/>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suggest Game For You :"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="24dp"
+        android:textStyle="bold"
+        android:textColor="@color/WhiteColor"
+        android:textSize="24dp"
+        android:textColorHint="@color/WhiteColor"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "2dp"
+        android:background="@color/WhiteColor" />
+
+
+
+
+    <ListView
+        android:id="@+id/MyListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="16"
+        android:layout_marginTop="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+
+        <Button
+            android:id="@+id/SearchButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:autoSizeTextType="uniform"
+            android:padding="18dp"
+            android:background="@drawable/custom_cdkeys_buygames"
+            android:text="Search"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/WhiteColor"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/BackButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:autoSizeTextType="uniform"
+            android:padding="18dp"
+            android:background="@drawable/custom_cdkeys_buygames"
+            android:text="Back-To-Menu"
+            android:textColor="@color/WhiteColor"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

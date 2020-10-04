@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/infopage00"
+    android:orientation="vertical"
+    android:weightSum="28"
+    tools:context=".MainActivity">
+
+
+    <ViewFlipper
+        android:id="@+id/V_Flipper"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/WhiteColor" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:autoSizeTextType="uniform"
+        android:textSize="20sp"
+        android:padding="11sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/WhiteColor"
+        android:text="Welcome To The World OF Gaming"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/WhiteColor" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/WhiteColor"
+        android:padding="18sp"
+        android:autoSizeTextType="uniform"
+        android:text="In This App you can find a way to get the game that you want cheaper than Xbox Store , Ps Store, Steam Etc. "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/WhiteColor" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="18sp"
+        android:textColor="@color/WhiteColor"
+        android:autoSizeTextType="uniform"
+        android:text="In Addition , You can watch games on Live. For fun , or just watch them before you choose to buy. "/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/WhiteColor" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="18sp"
+        android:textColor="@color/WhiteColor"
+        android:autoSizeTextType="uniform"
+        android:text="You can be updated every day with new information coming out about gamingץ "/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/WhiteColor" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/WhiteColor"
+        android:padding="20sp"
+        android:autoSizeTextType="uniform"
+        android:text="Please Enjoy My App ! "/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/WhiteColor" />
+
+
+
+    <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+        android:id="@+id/btn_id"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:background="@drawable/custom_button_gardient_color"
+        android:layout_weight="3"
+        android:text="GO"
+        android:textColor="@color/WhiteColor"
+        android:textStyle="bold"
+        android:autoSizeTextType="uniform"
+        android:padding="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        app:spinning_bar_width="5dp"
+        app:spinning_bar_color="@color/WhiteColor"
+        app:spinning_bar_padding="7dp"/>
+
+
+
+
+</LinearLayout>

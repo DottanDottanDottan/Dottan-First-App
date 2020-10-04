@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sale_background_01"
+    android:orientation="vertical"
+    tools:context=".Markert_Place">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/sale_image_00"
+        android:scaleType="fitXY" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/WhiteColor" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Choose Your Site : "
+        android:autoSizeTextType="uniform"
+        android:padding="7dp"
+        android:textColor="@color/WhiteColor"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/WhiteColor" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:background="@drawable/g2aimage"
+            android:scaleType="fitCenter" />
+        <View
+            android:layout_width="5dp"
+            android:layout_height="110dp"
+            android:background="@color/WhiteColor" />
+
+        <Button
+            android:id="@+id/Button_G2A_Market"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:background="@drawable/customg2abuy"
+            android:gravity="center"
+            android:autoSizeTextType="uniform"
+            android:padding="40dp"
+            android:text="Press Here !"
+            android:textColor="@color/WhiteColor"
+            android:textStyle="italic" />
+        <View
+            android:layout_width="5dp"
+            android:layout_height="110dp"
+            android:background="@color/WhiteColor"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/WhiteColor" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:background="@drawable/cdkeysimage"
+            android:scaleType="fitCenter"/>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="110dp"
+            android:background="@color/WhiteColor" />
+
+
+        <Button
+            android:id="@+id/Button_CDKEYS_Market"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:background="@drawable/customcdkeysbuy"
+            android:gravity="center"
+            android:text="Press Here !"
+            android:textColor="@color/WhiteColor"
+            android:autoSizeTextType="uniform"
+            android:padding="40dp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="110dp"
+            android:background="@color/WhiteColor"/>
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/WhiteColor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:background="@drawable/xboxsales"
+            android:scaleType="fitCenter" />
+
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="110dp"
+            android:background="@color/WhiteColor" />
+
+
+
+        <Button
+            android:id="@+id/Button_XboxSales"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:background="@drawable/customxboxsalesbuy"
+            android:gravity="center"
+            android:text="Press Here !"
+            android:textColor="@color/WhiteColor"
+            android:autoSizeTextType="uniform"
+            android:padding="40dp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="110dp"
+            android:background="@color/WhiteColor" />
+
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/WhiteColor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="110dp"
+            android:background="@drawable/comingsoon"
+            android:scaleType="fitCenter" />
+
+
+        <Button
+            android:id="@+id/Button_ComingSoon"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:background="@drawable/comingsoon"
+            android:gravity="center"
+            android:textColor="@color/WhiteColor"
+            android:textSize="15sp"
+            android:textStyle="italic"/>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="110dp"
+            android:background="@color/WhiteColor"/>
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/WhiteColor" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text=" Welcome To The Market Place !"
+        android:textColor="@color/WhiteColor"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

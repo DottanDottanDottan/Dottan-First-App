@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/good_night_img"
+    android:layout_height="match_parent"
+    android:weightSum="16"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:src="@drawable/user"
+      android:layout_weight="4"
+      android:id="@+id/profileimage"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="30dp"/>
+
+ <TextView
+     android:id="@+id/ShowProfileName"
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"
+     android:textSize="24sp"
+     android:textStyle="bold"
+     android:textColor="@color/WhiteColor"
+     android:text="User@gmail.com"
+     android:textAlignment="center"
+     android:layout_gravity="center"
+     android:gravity="center"/>
+
+
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="12"
+      android:weightSum="7"
+      android:orientation="horizontal">
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:weightSum="33">
+
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1" />
+
+
+
+
+      <EditText
+          android:id="@+id/PassWord"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="4"
+          android:backgroundTint="@color/WhiteColor"
+          android:hint="Password :"
+          android:inputType="textPassword"
+          android:textColor="@color/WhiteColor"
+          android:textColorHint="@color/WhiteColor"
+          android:textStyle="bold"
+          android:drawableStart="@drawable/ic_newpassword_outline_black_24dp"
+          android:drawableLeft="@drawable/ic_newpassword_outline_black_24dp"
+          android:drawablePadding="10dp"/>
+
+
+      <EditText
+          android:id="@+id/RePassWord"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="4"
+          android:backgroundTint="@color/WhiteColor"
+          android:hint="Confirm Password : "
+          android:inputType="textPassword"
+          android:textColor="@color/WhiteColor"
+          android:textColorHint="@color/WhiteColor"
+          android:textStyle="bold"
+          android:drawableStart="@drawable/ic_newpassword_outline_black_24dp"
+          android:drawableLeft="@drawable/ic_newpassword_outline_black_24dp"
+          android:drawablePadding="10dp"/>
+
+
+
+      <EditText
+          android:id="@+id/UserFullName"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="4"
+          android:backgroundTint="@color/WhiteColor"
+          android:drawableStart="@drawable/ic_fullname_add_black_24dp"
+          android:drawableLeft="@drawable/ic_fullname_add_black_24dp"
+          android:drawablePadding="10dp"
+          android:hint="FullName : "
+          android:textColor="@color/WhiteColor"
+          android:textColorHint="@color/WhiteColor"
+          android:textStyle="bold" />
+
+      <EditText
+          android:id="@+id/UserPhoneNumber"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="4"
+          android:backgroundTint="@color/WhiteColor"
+          android:hint="PhoneNumber : "
+          android:textColor="@color/WhiteColor"
+          android:textColorHint="@color/WhiteColor"
+          android:textStyle="bold"
+          android:drawableStart="@drawable/ic_phone_android_black_24dp"
+          android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+          android:drawablePadding="10dp"/>
+
+      <EditText
+          android:id="@+id/UserAddress"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="4"
+          android:backgroundTint="@color/WhiteColor"
+          android:hint="Address : "
+          android:textColor="@color/WhiteColor"
+          android:textColorHint="@color/WhiteColor"
+          android:textStyle="bold"
+          android:drawableStart="@drawable/ic_address_balance_black_24dp"
+          android:drawableLeft="@drawable/ic_address_balance_black_24dp"
+          android:drawablePadding="10dp"/>
+
+      <EditText
+          android:id="@+id/UserNickName"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="4"
+          android:backgroundTint="@color/WhiteColor"
+          android:hint="NickName : "
+          android:textColor="@color/WhiteColor"
+          android:textColorHint="@color/WhiteColor"
+          android:textStyle="bold"
+          android:drawableStart="@drawable/ic_whitesmile"
+          android:drawableLeft="@drawable/ic_whitesmile"
+          android:drawablePadding="10dp"/>
+
+
+
+
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1" />
+
+
+      <Button
+          android:id="@+id/BtnUpdate"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_gravity="center"
+          android:layout_weight="2.5"
+          android:autoSizeTextType="uniform"
+          android:padding="7dp"
+          android:background="@drawable/custon_signuppage_button"
+          android:text="Update INFO"
+          android:textColor="@color/WhiteColor"
+          android:textStyle="bold" />
+
+      <Space
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="2"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+  </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="24"
+    android:background="#000000"
+    android:layout_height="match_parent"
+    tools:context=".Contact_Page_Gmail_And_Whatsapp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="5"
+        android:scaleType="fitXY"
+        android:src="@drawable/gmailimage"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/WhiteColor" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/BtnMoveToEmail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="7"
+        android:autoSizeTextType="uniform"
+        android:padding="15dp"
+        android:background="@drawable/gmailbutton"
+        android:text="Contact Us Via Email"
+        android:textColor="@color/WhiteColor"
+        android:textStyle="bold" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/WhiteColor" />
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_weight="5"
+        android:src="@drawable/whatsappimage5"
+        android:scaleType="fitXY"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/WhiteColor" />
+
+
+
+
+
+
+    <Button
+        android:id="@+id/BtnMoveToWhatsapp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:layout_weight="7"
+        android:background="@drawable/whatspbutton"
+        android:text="Contact Us Via WhatsApp"
+        android:textColor="@color/WhiteColor"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/WhiteColor" />
+
+
+</LinearLayout>

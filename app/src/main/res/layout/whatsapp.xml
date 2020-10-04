@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whatsasppbackground0"
+    android:weightSum="12.5"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_gravity="center"
+        android:src="@drawable/whatsappimage2"
+        android:scaleType="fitXY"/>
+
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Whatsapp Page !"
+        android:gravity="center"
+        android:textColorHint="@color/WhiteColor"
+        android:textStyle="bold"
+        android:foregroundTint="@color/WhiteColor"
+        android:backgroundTint="@color/WhiteColor"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/WhiteColor"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height= "4dp"
+        android:background="@color/WhiteColor" />
+
+
+
+    <EditText
+        android:id="@+id/Edit_Text_WhatsApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="5"
+        android:textSize="24sp"
+        android:foregroundTint="@color/WhiteColor"
+        android:textStyle="italic"
+        android:layout_weight="6"
+        android:layout_gravity="center"
+        android:gravity="start|top"
+        android:textColor="@color/WhiteColor"
+        android:hint="Write Here Your Message Text... "
+        android:backgroundTint="@color/WhiteColor"
+        android:textColorHint="@color/WhiteColor"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+
+        <Button
+            android:id="@+id/BtnWhatsAppBtn"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Send WhatsApp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custon_signuppage_button"/>
+        <Button
+            android:id="@+id/BackToContact"
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/WhiteColor"
+            android:background="@drawable/custon_signuppage_button"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

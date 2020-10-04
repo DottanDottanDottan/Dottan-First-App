@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundsignup01"
+    android:layout_height="match_parent"
+    android:weightSum="16"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:src="@drawable/logologosignup"
+        android:scaleType="fitXY"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:weightSum="7"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:weightSum="46">
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:autoSizeTextType="uniform"
+                android:padding="5dp"
+                android:backgroundTint="@color/WhiteColor"
+                android:hint="Email :"
+                android:textColor="@color/WhiteColor"
+                android:textColorHint="@color/WhiteColor"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/ic_newemail_black_24dp"
+                android:drawableLeft="@drawable/ic_newemail_black_24dp"
+                android:drawablePadding="10dp"/>
+
+
+            <EditText
+                android:id="@+id/PassWord"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:backgroundTint="@color/WhiteColor"
+                android:hint="Password : "
+                android:autoSizeTextType="uniform"
+                android:padding="5dp"
+                android:inputType="textPassword"
+                android:textColor="@color/WhiteColor"
+                android:textColorHint="@color/WhiteColor"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/ic_newpassword_outline_black_24dp"
+                android:drawableLeft="@drawable/ic_newpassword_outline_black_24dp"
+                android:drawablePadding="10dp"/>
+
+
+            <EditText
+                android:id="@+id/RePassWord"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:backgroundTint="@color/WhiteColor"
+                android:hint="Confirm Password : "
+                android:autoSizeTextType="uniform"
+                android:padding="5dp"
+                android:inputType="textPassword"
+                android:textColor="@color/WhiteColor"
+                android:textColorHint="@color/WhiteColor"
+                android:textStyle="bold"
+                android:drawableStart="@drawable/ic_newpassword_outline_black_24dp"
+                android:drawableLeft="@drawable/ic_newpassword_outline_black_24dp"
+                android:drawablePadding="10dp"/>
+
+
+
+            <EditText
+                android:id="@+id/UserFullName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:backgroundTint="@color/WhiteColor"
+                android:drawableStart="@drawable/ic_fullname_add_black_24dp"
+                android:drawableLeft="@drawable/ic_fullname_add_black_24dp"
+                android:drawablePadding="10dp"
+                android:hint="FullName : "
+                android:autoSizeTextType="uniform"
+                android:padding="5dp"
+                android:textColor="@color/WhiteColor"
+                android:textColorHint="@color/WhiteColor"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/UserPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:backgroundTint="@color/WhiteColor"
+                android:hint="Phone-Number : "
+                android:textColor="@color/WhiteColor"
+                android:textColorHint="@color/WhiteColor"
+                android:textStyle="bold"
+                android:autoSizeTextType="uniform"
+                android:padding="5dp"
+                android:drawableStart="@drawable/ic_phone_android_black_24dp"
+                android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+                android:drawablePadding="10dp"/>
+
+            <EditText
+                android:id="@+id/UserAddress"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:backgroundTint="@color/WhiteColor"
+                android:hint="Address : "
+                android:textColor="@color/WhiteColor"
+                android:textColorHint="@color/WhiteColor"
+                android:textStyle="bold"
+                android:autoSizeTextType="uniform"
+                android:padding="5dp"
+                android:drawableStart="@drawable/ic_address_balance_black_24dp"
+                android:drawableLeft="@drawable/ic_address_balance_black_24dp"
+                android:drawablePadding="10dp"/>
+
+            <EditText
+                android:id="@+id/UserNickName"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:backgroundTint="@color/WhiteColor"
+                android:hint="NickName : "
+                android:textColor="@color/WhiteColor"
+                android:textColorHint="@color/WhiteColor"
+                android:textStyle="bold"
+                android:autoSizeTextType="uniform"
+                android:padding="5dp"
+                android:drawableStart="@drawable/ic_nickname"
+                android:drawableLeft="@drawable/ic_nickname"
+                android:drawablePadding="10dp"/>
+
+
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+
+            <Button
+                android:id="@+id/BtnSignUp1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:autoSizeTextType="uniform"
+                android:padding="5dp"
+                android:background="@drawable/signuppage0000"
+                android:text="Sign Up"
+                android:textColor="@color/WhiteColor"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"/>
+
+
+            <Button
+                android:id="@+id/BtnAlrdyUserBtn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:background="@drawable/signuppage0000"
+                android:text="Back To Login"
+                android:textColor="@color/WhiteColor"
+                android:textStyle="bold"
+                android:autoSizeTextType="uniform"
+                android:padding="7dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

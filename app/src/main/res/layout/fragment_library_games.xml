@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="20"
+    android:orientation="vertical"
+    android:background="@drawable/custom_gardient_colors">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:src="@drawable/xboxnoback"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Welcome !"
+        android:gravity="center"
+        android:textColor="@color/WhiteColor"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="Choose Your Category : "
+        android:textColor="@color/WhiteColor"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/custom_gardient_colors"
+        android:orientation="vertical"
+        android:weightSum="3"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Action Game"
+                        android:autoSizeTextType="uniform"
+                        android:padding="5dp"
+                        android:textSize="20dp"
+                        android:textAlignment="center"
+                        android:textColor="@color/SplashScreenColor"
+                        android:textStyle="bold"/>
+                    <Button
+                        android:id="@+id/id_Action_Game"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:text="Press Here"
+                        android:textColor="#FFFFFF"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/custom_button_gardient_color"
+                        android:layout_weight="3"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sport Games"
+                        android:autoSizeTextType="uniform"
+                        android:padding="5dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/SplashScreenColor"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"/>
+                    <Button
+                        android:id="@+id/id_Sport_Game"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:text="Press Here"
+                        android:textColor="#FFFFFF"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/custom_button_gardient_color"
+                        android:layout_weight="3"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Racing Games"
+                        android:autoSizeTextType="uniform"
+                        android:padding="5dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/SplashScreenColor"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"/>
+                    <Button
+                        android:id="@+id/id_Racing_Game"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:text="Press Here"
+                        android:textColor="#FFFFFF"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/custom_button_gardient_color"
+                        android:layout_weight="3"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Scary Games"
+                        android:autoSizeTextType="uniform"
+                        android:padding="5dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/SplashScreenColor"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"/>
+                    <Button
+                        android:id="@+id/id_Scary_Game"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:text="Press Here"
+                        android:textColor="#FFFFFF"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/custom_button_gardient_color"
+                        android:layout_weight="3"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="@color/WhiteColor">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Advanture Games"
+                        android:autoSizeTextType="uniform"
+                        android:padding="5dp"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/SplashScreenColor"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"/>
+                    <Button
+                        android:id="@+id/id_Advanture_Game"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:text="Press Here"
+                        android:textColor="#FFFFFF"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/custom_button_gardient_color"
+                        android:layout_weight="3"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                app:cardMaxElevation="5dp"
+                app:cardBackgroundColor="#fff">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RPG Games"
+                        android:autoSizeTextType="uniform"
+                        android:padding="5dp"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/SplashScreenColor"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"/>
+                    <Button
+                        android:id="@+id/id_RPG_Game"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:text="Press Here"
+                        android:textColor="#FFFFFF"
+                        android:layout_margin="10sp"
+                        android:background="@drawable/custom_button_gardient_color"
+                        android:layout_weight="3"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

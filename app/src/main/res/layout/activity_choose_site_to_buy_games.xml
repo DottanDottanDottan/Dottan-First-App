@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundottanlikes"
+    android:orientation="vertical"
+    tools:context=".ChooseSiteToBuyGames">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/marketpkaceimage"
+        android:scaleType="fitXY" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/orangeg2aimage"
+            android:scaleType="fitCenter" />
+
+
+        <Button
+            android:id="@+id/Button_G2A_Market"
+            android:layout_width="168dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custon_signuppage_button"
+            android:gravity="center"
+            android:text="G2A-MARKET"
+            android:textColor="@color/WhiteColor"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/cdkeysimage"
+            android:scaleType="fitCenter" />
+
+
+        <Button
+            android:id="@+id/Button_CDKEYS_Market"
+            android:layout_width="168dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custon_signuppage_button"
+            android:gravity="center"
+            android:text="CDKEYS-MARKET"
+            android:textColor="@color/WhiteColor"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:background="@drawable/kinguinblackimage"
+            android:scaleType="fitCenter" />
+
+
+        <Button
+            android:id="@+id/Button_Kinguin_Market"
+            android:layout_width="168dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custon_signuppage_button"
+            android:gravity="center"
+            android:text="KINGUIN-MARKET"
+            android:textColor="@color/WhiteColor"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="24sp"
+        android:text="MarketPlace !"
+        android:textColor="@color/WhiteColor"
+        android:textStyle="italic"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>

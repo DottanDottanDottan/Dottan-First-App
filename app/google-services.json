@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "705170794244",
+    "firebase_url": "https://myxbox-12696.firebaseio.com",
+    "project_id": "myxbox-12696",
+    "storage_bucket": "myxbox-12696.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705170794244:android:afedad74b06e2d7b8dd251",
+        "android_client_info": {
+          "package_name": "com.example.myxbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705170794244-ia82vp285kkjhvgrir54gtkv920efi1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXQU-g0gufIpeXlWNTcOwH9vM5XuwKz1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705170794244-ia82vp285kkjhvgrir54gtkv920efi1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

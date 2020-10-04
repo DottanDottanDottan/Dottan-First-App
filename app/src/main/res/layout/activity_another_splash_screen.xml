@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="15"
+    android:background="@drawable/splashscreenbackground"
+    android:orientation="vertical"
+    tools:context=".Another_Splash_Screen">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textDirection="ltr"
+        android:textSize="50dp" />
+
+    <ImageView
+        android:id="@+id/LogoScreen"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:src="@drawable/blackandwhitexboxicon" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="ltr"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:text="Gaming World "
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:layout_weight="5"/>
+
+
+</LinearLayout>

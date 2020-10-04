@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/custom_gardient_colors"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="64dp"
+        android:src="@drawable/log_out_image"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:textColor="@color/WhiteColor"
+        android:text="Are You Sure You Want To Leave?" />
+    
+    <Button
+        android:id="@+id/AlertDialog_Accept_Log_Out"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept"
+        android:textColor="@color/WhiteColor"
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+    <Button
+        android:id="@+id/AlertDialog_Cancel_Log_Out"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textColor="@color/WhiteColor"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+    
+    
+    
+
+</LinearLayout>

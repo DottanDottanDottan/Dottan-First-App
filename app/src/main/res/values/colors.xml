@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorPrimarySplash">#00C853</color>
+    <color name="colorPrimaryDarkSplash">#00993F</color>
+    <color name="colorAccentSplash">#E65100</color>
+    <color name="WhiteColor">#FFFFFF</color>
+    <color name="BlueColor">#0000FF</color>
+    <color name="PinkColor">#FF00FF</color>
+    <color name="PurpleColor">#9400D3</color>
+    <color name="CyanColor">#00FFFF</color>
+    <color name="TurquoiseColor">#40E0D0</color>
+    <color name="LimeGreenColor">#00FF00</color>
+    <color name="GreenColor">#008000</color>
+    <color name="GrayColor">#696969</color>
+    <color name="RedColor">#FF0000</color>
+    <color name="OrangeRedColor">#FF4500</color>
+    <color name="OrangeColor">#FF6347</color>
+    <color name="YellowColor">#FFFF00</color>
+    <color name="BrownColor">#A52A2A</color>
+    <color name="BlackColor">#000000</color>
+    <color name="SplashScreenColor">#009999</color>
+
+
+
+
+
+
+</resources>
